@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="#fff"
+    android:padding="24dp"
+    android:layout_centerVertical="true"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username : "
+                android:textColor="@color/Blue"
+                android:fontFamily="@font/montserrat"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:layout_marginBottom="8dp"/>
+
+            <EditText
+                android:hint="Masukan Username..."
+                android:textSize="14sp"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:background="@drawable/edit_text_bg"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingLeft="16dp"
+                android:textColorHint="@color/LightGrey2" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username : "
+            android:textColor="@color/Blue"
+            android:fontFamily="@font/montserrat"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:hint="Masukan Username..."
+            android:textSize="14sp"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:background="@drawable/edit_text_bg"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="16dp"
+            android:textColorHint="@color/LightGrey2" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username : "
+            android:textColor="@color/Blue"
+            android:fontFamily="@font/montserrat"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:hint="Masukan Username..."
+            android:textSize="14sp"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:background="@drawable/edit_text_bg"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="16dp"
+            android:textColorHint="@color/LightGrey2" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

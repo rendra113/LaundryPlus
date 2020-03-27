@@ -1,0 +1,2 @@
+rootProject.name='LaundryPlus'
+include ':app'
